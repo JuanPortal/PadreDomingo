@@ -13,7 +13,7 @@ body {
 
 .horario {
     position: absolute;
-    top: 25px;
+    top: 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -32,4 +32,8 @@ body {
 
 .hidden {
     display: none;
+}
+
+.options {
+    margin: 40px 0;
 }
