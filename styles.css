@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.horario {
+    position: absolute;
+    top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    width: 79px;
+}
+
+.fila {
+    height: 25px;
+}
+
+.libre {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hidden {
+    display: none;
+}
