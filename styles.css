@@ -7,45 +7,14 @@
 }
 
 body {
-    /* height: 100vh; */
+    height: 100vh;
     width: 100%;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
-}
-
-.schedules {
-    width: 632px;
-    height: 625px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px 15px 0 0;
-}
-
-.schedule {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-}
-
-.column {
-    width: 79px;
-}
-
-.row {
-    height: 25px;
-}
-
-.free {
-    background-color: rgba(0, 0, 0, 0.65);
-}
-
-.hidden {
-    display: none;
+    background-image: linear-gradient(to right top, #4158D0, #C850C0, #FFCC70);
 }
 
 .filters {
@@ -55,4 +24,36 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+
+.schedules {
+    width: 632px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px 15px 0 0;
+}
+
+.schedule {
+    position: absolute;
+    display: flex;
+    font-size: 0.6em;
+}
+
+.column {
+    width: 79px;
+}
+
+.row {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.free {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.hidden {
+    display: none;
 }
