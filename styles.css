@@ -70,7 +70,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .filters {
         gap: 15px;
         font-size: 0.6em;
