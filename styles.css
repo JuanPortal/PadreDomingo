@@ -94,4 +94,8 @@ body {
     .column {
         width: 35px;
     }
+
+    .row {
+        height: 20px;
+    }
 }
