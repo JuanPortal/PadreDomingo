@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right top, #4158D0, #C850C0, #FFCC70);
+    background-image: linear-gradient(to right top, #4158d0, #c850c0, #ffcc70);
 }
 
 .filters {
@@ -26,10 +26,17 @@ body {
     gap: 40px;
 }
 
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
 .schedules {
     width: 632px;
     height: 500px;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     border-radius: 15px 15px 0 0;
 }
 
@@ -51,9 +58,38 @@ body {
 }
 
 .free {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: #000000a6;
 }
 
 .hidden {
     display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .filters {
+        gap: 15px;
+        font-size: 0.6em;
+    }
+
+    .person {
+        gap: 2px;
+    }
+
+    .schedules {
+        width: 280px;
+        height: 500px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .schedule {
+        font-size: 0.3em;
+    }
+
+    .column {
+        width: 35px;
+    }
+
+    .row {
+        /* height: ; */
+    }
 }
