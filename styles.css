@@ -3,37 +3,56 @@
     margin: 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
+    /* height: 100vh; */
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
 }
 
-.horario {
+.schedules {
+    width: 632px;
+    height: 625px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px 15px 0 0;
+}
+
+.schedule {
     position: absolute;
-    top: 60px;
     display: flex;
     justify-content: space-between;
 }
 
-.columna {
+.column {
     width: 79px;
 }
 
-.fila {
+.row {
     height: 25px;
 }
 
-.libre {
-    background-color: rgba(0, 0, 0, 0.5);
+.free {
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
 .hidden {
     display: none;
 }
 
-.options {
-    margin: 40px 0;
+.filters {
+    margin: 20px 0 40px 0;
+    width: 632px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
