@@ -29,6 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    font-size: 1.6em;
 }
 
 .person {
@@ -39,8 +40,8 @@ body {
 }
 
 .schedules {
-    width: 632px;
-    height: 500px;
+    width: 1200px;
+    height: 750px;
     background-color: #fff;
     border-radius: 15px 15px 0 0;
 }
@@ -48,15 +49,15 @@ body {
 .schedule {
     position: absolute;
     display: flex;
-    font-size: 0.6em;
+    font-size: 1em;
 }
 
 .column {
-    width: 79px;
+    width: 150px;
 }
 
 .row {
-    height: 20px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
