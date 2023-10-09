@@ -7,7 +7,7 @@
 }
 
 .home {
-    background: url('./assets/background.jpeg');
+    background: url('https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/background.webp?alt=media&token=7a3194b6-3dfd-4884-bb45-2fb511af0fd0&_gl=1*1iiefs7*_ga*Mzg5Mjk2OTcuMTY5Njg4OTA0Mg..*_ga_CW55HF8NVT*MTY5Njg4OTA0MS4xLjEuMTY5Njg4OTQxNi4xOS4wLjA.');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
