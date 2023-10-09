@@ -1,0 +1,4 @@
+[headers]
+  # Define MIME types for JavaScript files
+  Content-Type = "application/javascript"
+  X-Content-Type-Options = "nosniff"
