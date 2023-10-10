@@ -1,7 +1,8 @@
 import React from 'react'
 import { Home } from './Home'
-import { Reglamento } from './Reglamento'
+import { Lineamentos } from './Lineamentos'
 import { Horario } from './Horario'
+import { Juegos } from './Juegos'
 import { Routes, Route } from 'react-router-dom'
 
 export const PadreDomingo = () => {
@@ -9,11 +10,12 @@ export const PadreDomingo = () => {
     <>
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/reglamento' element={<Reglamento />}/>
-        <Route path='/lineamentos' element={<Reglamento />}/>
-        <Route path='/decalogo' element={<Reglamento />}/>
-        <Route path='/reglas' element={<Reglamento />}/>
+        <Route path='/lineamentos' element={<Lineamentos />}/>
+        <Route path='/reglamento' element={<Lineamentos />}/>
+        <Route path='/decalogo' element={<Lineamentos />}/>
+        <Route path='/reglas' element={<Lineamentos />}/>
         <Route path='/horario' element={<Horario />}/>
+        <Route path='/juegos' element={<Juegos />}/>
       </Routes>
     </>
   )

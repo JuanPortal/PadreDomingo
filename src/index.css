@@ -6,18 +6,17 @@
     box-sizing: border-box;
 }
 
-.home {
+body {
     background: url('https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/background.webp?alt=media&token=7a3194b6-3dfd-4884-bb45-2fb511af0fd0&_gl=1*1iiefs7*_ga*Mzg5Mjk2OTcuMTY5Njg4OTA0Mg..*_ga_CW55HF8NVT*MTY5Njg4OTA0MS4xLjEuMTY5Njg4OTQxNi4xOS4wLjA.');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.home div {
+.home {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #000000ad;
     display: flex;
     flex-direction: column;
@@ -25,4 +24,18 @@
     align-items: center;
     gap: 30px;
     color: #fff;
+}
+
+header {
+    
+}
+
+.lineamentos, .horario, .juegos {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000ad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
