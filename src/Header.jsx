@@ -1,7 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom';
 
 export const Header = () => {
+    const location = useLocation();
+
     return (
         <header>
             <Link className='title' to='/'>
@@ -11,10 +13,10 @@ export const Header = () => {
                 </h1>
             </Link>
             <nav className='links'>
-                <Link className='link' to='/'>Home</Link>
-                <Link className='link' to='/lineamentos'>Lineamentos</Link>
-                <Link className='link' to='/horario'>Horario</Link>
-                <Link className='link' to='/juegos'>Juegos</Link>
+                <Link className={`link ${location.pathname === '/' ? 'active-link' : ''}`} to='/'>Home</Link>
+                <Link className={`link ${location.pathname === '/lineamentos' ? 'active-link' : ''}`} to='/lineamentos'>Lineamentos</Link>
+                <Link className={`link ${location.pathname === '/horario' ? 'active-link' : ''}`} to='/horario'>Horario</Link>
+                <Link className={`link ${location.pathname === '/juegos' ? 'active-link' : ''}`} to='/juegos'>Juegos</Link>
             </nav>
         </header>
     )

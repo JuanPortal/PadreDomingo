@@ -57,7 +57,8 @@ header nav .link {
     transition: .5s ease-in-out;
 }
 
-header nav .link::after {
+header nav .link::after,
+header nav .active-link::after {
     content: '';
     position: absolute;
     height: 2px;
@@ -66,13 +67,14 @@ header nav .link::after {
     bottom: 0;
 }
 
-/* SECTIONS */
-
-header nav .link:hover::after {
+header nav .link:hover::after,
+header nav .active-link::after {
     left: 0;
     background: #fff;
     transition: .2s ease-in-out;
 }
+
+/* SECTIONS */
 
 .home, .lineamentos, .horario, .juegos {
     width: 100%;
