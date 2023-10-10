@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Juegos = () => {
   return (
-    <h2>Juegos</h2>
+    <section className='juegos'>
+        <h2>Juegos</h2>
+    </section>
   )
 }

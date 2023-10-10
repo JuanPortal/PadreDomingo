@@ -1,4 +1,5 @@
 import React from 'react'
+import { Header } from './Header'
 import { Home } from './Home'
 import { Lineamentos } from './Lineamentos'
 import { Horario } from './Horario'
@@ -8,6 +9,7 @@ import { Routes, Route } from 'react-router-dom'
 export const PadreDomingo = () => {
   return (
     <>
+      <Header />
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/lineamentos' element={<Lineamentos />}/>
