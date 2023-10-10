@@ -16,6 +16,7 @@ export const Header = () => {
                 <Link className={`link ${location.pathname === '/' ? 'active-link' : ''}`} to='/'>Home</Link>
                 <Link className={`link ${location.pathname === '/lineamentos' ? 'active-link' : ''}`} to='/lineamentos'>Lineamentos</Link>
                 <Link className={`link ${location.pathname === '/horario' ? 'active-link' : ''}`} to='/horario'>Horario</Link>
+                <Link className={`link ${location.pathname === '/ppt' ? 'active-link' : ''}`} to='/ppt'>PPT</Link>
                 <Link className={`link ${location.pathname === '/juegos' ? 'active-link' : ''}`} to='/juegos'>Juegos</Link>
             </nav>
         </header>
