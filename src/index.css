@@ -18,16 +18,67 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #000000ad;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
     color: #fff;
 }
 
 header {
-    
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+}
+
+header nav .link {
+    position: relative;
+    font-size: 1.4em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+}
+
+header nav .link::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: -100%;
+    bottom: 0;
+}
+
+header nav .link:hover::after {
+    left: 0;
+    background: #fff;
+    transition: .2s ease-in-out;
+}
+
+.about {
+    height: 90vh;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about img {
+    width: 400px;
+    height: 296px;
+    border-radius: 20px;
+    border: 2px solid #fff;
 }
 
 .lineamentos, .horario, .juegos {
