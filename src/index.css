@@ -286,6 +286,7 @@ h2 {
         align-items: center;
         padding: 40px 0;
         transition: .2s ease-in-out;
+        z-index: 100;
     }
 
     .links.invisible {
