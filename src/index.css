@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Comfortaa', sans-serif;
-    max-width: 100vw;
     box-sizing: border-box;
+    color: #fff;
 }
 
 body {
@@ -12,6 +12,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+}
+
+/* SCROLLBAR */
+
+*::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+*::-webkit-scrollbar-track {
+    display: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    display: none;
 }
 
 /* HEADER */
@@ -28,19 +43,18 @@ header {
 
 header .title {
     text-decoration: none;
-}
-
-header .title h1 {
-    font-size: 3rem;
-    color: #fff;
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-header .title h1 img {
+header .title img {
     width: 80px;
     height: 80px;
+}
+
+header .title h1 {
+    font-size: 3rem;
 }
 
 header nav {
@@ -51,7 +65,6 @@ header nav {
 header nav .link {
     position: relative;
     font-size: 1.4em;
-    color: #fff;
     display: flex;
     text-decoration: none;
     transition: .5s ease-in-out;
@@ -74,23 +87,42 @@ header nav .active-link::after {
     transition: .2s ease-in-out;
 }
 
+header .hamburger-menu {
+    display: none;
+    font-size: 2rem;
+}
+
 /* SECTIONS */
 
-.home, .lineamentos, .horario, .ppt, .juegos {
+section {
     width: 100%;
     min-height: 85vh;
     background-color: #000000ad;
-    color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+
+/* SUBTITLES */
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 50px 0;
 }
 
 /* HOME */
 
 .home {
     font-size: 2.5rem;
+}
+
+.home .content {
+    min-height: calc(100vh - 15vh - 2.5rem - 105px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
@@ -104,21 +136,14 @@ header nav .active-link::after {
 /* LINEAMENTOS */
 
 .lineamentos {
-    padding: 0 200px;
-    justify-content: flex-start;
+    padding: 0 300px;
     font-size: 1.5rem;
 }
 
-.lineamentos h2 {
-    font-size: 3.5rem;
-    font-weight: 400;
-    margin-bottom: 50px;
-}
-
 .lineamentos ol {
-    margin-bottom: 50px;
     text-align: justify;
     line-height: 2rem;
+    margin-bottom: 50px;
 }
 
 .lineamentos ol li:not(:last-child) {
@@ -126,9 +151,9 @@ header nav .active-link::after {
 }
 
 .lineamentos h3 {
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
 .lineamentos .pseudo-footer {
@@ -136,25 +161,19 @@ header nav .active-link::after {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
     margin: 100px 0 50px 0
 }
 
 /* HORARIO */
 
-.horario {
-
-}
+.horario {}
 
 /* PPT */
 
-.ppt h2 {
-    font-size: 3.5rem;
-    font-weight: 400;
-    margin-bottom: 75px;
-}
-
 .ppt h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 900;
     margin-bottom: 20px;
 }
 
@@ -176,6 +195,7 @@ header nav .active-link::after {
 
 .ppt ul li img {
     width: 400px;
+    max-width: 20vw;
     height: 225px;
     border-radius: 10px;
 }
@@ -187,6 +207,77 @@ header nav .active-link::after {
 
 /* JUEGOS */
 
-.juegos {
+.juegos {}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1300px) {
+    header .hamburger-menu {
+        display: block;
+    }
+
+    .links {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        top: 15vh;
+        left: 0;
+        background-color: #000000ad;
+        background-color: #000000f0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+        transition: .2s ease-in-out;
+    }
+
+    .links.invisible {
+        top: -100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .ppt ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
     
+    .ppt ul li img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header .title img {
+        width: 60px;
+        height: 60px;
+    }
+
+    header .title h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 0 20px;
+    }
+
+    header .title img {
+        width: 40px;
+        height: 40px;
+    }
+
+    header .title h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: .9rem;
+    }
 }
