@@ -195,7 +195,6 @@ h2 {
 
 .ppt ul li img {
     width: 400px;
-    max-width: 20vw;
     height: 225px;
     border-radius: 10px;
 }
@@ -269,15 +268,45 @@ h2 {
     }
 
     header .title img {
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
     }
 
     header .title h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     h2 {
-        font-size: .9rem;
+        font-size: 1.4rem;
+    }
+
+    .home {
+        font-size: 1rem;
+    }
+
+    .home img {
+        width: 300px;
+        height: 225px;
+    }
+
+    .lineamentos {
+        padding: 0 50px;
+    }
+    
+    .lineamentos ol {
+        font-size: 1rem;
+    }
+
+    .lineamentos h3 {
+        font-size: 1.3rem;
+    }
+
+    .lineamentos .pseudo-footer {
+        text-align: center;
+    }
+
+    .ppt ul li img {
+        width: 300px;
+        height: 200px;
     }
 }
