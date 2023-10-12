@@ -118,6 +118,7 @@ header nav .active-link::after {
 .lineamentos ol {
     margin-bottom: 50px;
     text-align: justify;
+    line-height: 2rem;
 }
 
 .lineamentos ol li:not(:last-child) {
@@ -145,10 +146,6 @@ header nav .active-link::after {
 }
 
 /* PPT */
-
-.ppt {
-
-}
 
 .ppt h2 {
     font-size: 3.5rem;
@@ -185,10 +182,11 @@ header nav .active-link::after {
 
 .ppt ul li img:hover {
     cursor: pointer;
+    transform: scale(0.98);
 }
 
 /* JUEGOS */
 
 .juegos {
-
+    
 }
