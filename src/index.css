@@ -167,7 +167,60 @@ h2 {
 
 /* HORARIO */
 
-.horario {}
+.horario .filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 50px;
+}
+
+.horario .filters .person {
+    display: flex;
+    gap: 7px;
+}
+
+.horario .filters input[type='checkbox'] {
+    accent-color: #ff0000;
+}
+
+.schedules {
+    width: 1200px;
+    height: 750px;
+    background-color: #ffffffdb;
+    border-radius: 15px;
+    margin: 50px 0;
+}
+
+.schedule {
+    position: absolute;
+    display: flex;
+    font-size: 1em;
+}
+
+.schedule.invisible {
+    display: none;
+}
+
+.column {
+    width: 150px;
+}
+
+.row {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.free {
+    background-color: #000000a6;
+}
+
+.hidden {
+    display: none;
+}
 
 /* PPT */
 
@@ -240,6 +293,31 @@ h2 {
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .horario .filters {
+        font-size: .8rem;
+        gap: 20px;
+    }
+
+    .schedules {
+        width: 800px;
+        height: 500px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .schedule {
+        font-size: 0.5rem;
+    }
+
+    .column {
+        width: 100px;
+    }
+
+    .row {
+        height: 20px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .ppt ul {
         display: grid;
@@ -298,6 +376,29 @@ h2 {
 
     .lineamentos .pseudo-footer {
         text-align: center;
+    }
+
+    .horario .filters {
+        font-size: .8rem;
+        gap: 20px;
+    }
+
+    .schedules {
+        width: 320px;
+        height: 500px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .schedule {
+        font-size: 0.3em;
+    }
+
+    .column {
+        width: 40px;
+    }
+
+    .row {
+        height: 20px;
     }
 
     .ppt ul li img {
