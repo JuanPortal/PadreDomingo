@@ -58,19 +58,19 @@ export const PPT = () => {
             <ul>
                 <li>
                     <p>Alexis</p>
-                    <img onClick={() => handleDownload('Alexis', 3)} src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/TBA.png?alt=media&token=62930d1f-8edb-4b38-b466-e054782fb1c9&_gl=1*6y2a2w*_ga*Mzg5Mjk2OTcuMTY5Njg4OTA0Mg..*_ga_CW55HF8NVT*MTY5NjkwNzY2NC4zLjEuMTY5NjkxMDA2Mi40OS4wLjA." title="Alexis 3" alt="Alexis 3" />
+                    <img onClick={() => handleDownload('Alexis', 3)} src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Alexis%203.png?alt=media&token=ca285c1c-2729-4a5c-97cf-9a017d04d960" title="Alexis 3" alt="Alexis 3" />
                 </li>
                 <li>
                     <p>Farge</p>
-                    <img onClick={() => handleDownload('Farge', 3)} src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/TBA.png?alt=media&token=62930d1f-8edb-4b38-b466-e054782fb1c9&_gl=1*6y2a2w*_ga*Mzg5Mjk2OTcuMTY5Njg4OTA0Mg..*_ga_CW55HF8NVT*MTY5NjkwNzY2NC4zLjEuMTY5NjkxMDA2Mi40OS4wLjA." title="Farge 3" alt="Farge 3" />
+                    <img onClick={() => handleDownload('Farge', 3)} src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Farge%203.png?alt=media&token=a765e987-3ff3-4689-b100-e0c49892b2f6" title="Farge 3" alt="Farge 3" />
                 </li>
                 <li>
                     <p>Mapache</p>
-                    <img onClick={() => handleDownload('Mapache', 3)} src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/TBA.png?alt=media&token=62930d1f-8edb-4b38-b466-e054782fb1c9&_gl=1*6y2a2w*_ga*Mzg5Mjk2OTcuMTY5Njg4OTA0Mg..*_ga_CW55HF8NVT*MTY5NjkwNzY2NC4zLjEuMTY5NjkxMDA2Mi40OS4wLjA." title="Mapache 3" alt="Mapache 3" />
+                    <img onClick={() => handleDownload('Mapache', 3)} src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Mapache%203.png?alt=media&token=cae5e7ba-737c-416e-9aff-655d7374ed4c" title="Mapache 3" alt="Mapache 3" />
                 </li>
                 <li>
                     <p>Portal</p>
-                    <img onClick={() => handleDownload('Portal', 3)} src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/TBA.png?alt=media&token=62930d1f-8edb-4b38-b466-e054782fb1c9&_gl=1*6y2a2w*_ga*Mzg5Mjk2OTcuMTY5Njg4OTA0Mg..*_ga_CW55HF8NVT*MTY5NjkwNzY2NC4zLjEuMTY5NjkxMDA2Mi40OS4wLjA." title="Portal 3" alt="Portal 3" />
+                    <img onClick={() => handleDownload('Portal', 3)} src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Portal%203.png?alt=media&token=383ef242-26af-4aa2-b64f-d362935c1d73" title="Portal 3" alt="Portal 3" />
                 </li>
             </ul>
         </section>
