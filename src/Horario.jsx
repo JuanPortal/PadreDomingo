@@ -38,6 +38,31 @@ export const Horario = () => {
     }
   }
 
+  // TESTING
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+
+
+
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  //
+  // TESTING
+
   return (
     <section className='horario'>
       <h2>Horario</h2>
@@ -62,7 +87,7 @@ export const Horario = () => {
       </div>
 
       <div class="schedules">
-        <div class="schedule">
+        <div class="schedule"> {/* Template */}
             <div class="column">
               <div class="row">Horas</div>
               <div class="row">00 - 01</div>
@@ -93,1102 +118,251 @@ export const Horario = () => {
 
             <div class="column">
               <div class="row">Lunes</div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
+              {[...Array(24)].map((index) => (
+                <div key={index} className="row"></div>
+              ))}
             </div>
 
             <div class="column">
               <div class="row">Martes</div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
+              {[...Array(24)].map((index) => (
+                <div key={index} className="row"></div>
+              ))}
             </div>
 
             <div class="column">
               <div class="row">Miércoles</div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
+              {[...Array(24)].map((index) => (
+                <div key={index} className="row"></div>
+              ))}
             </div>
 
             <div class="column">
               <div class="row">Jueves</div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
+              {[...Array(24)].map((index) => (
+                <div key={index} className="row"></div>
+              ))}
             </div>
 
             <div class="column">
               <div class="row">Viernes</div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
+              {[...Array(24)].map((index) => (
+                <div key={index} className="row"></div>
+              ))}
             </div>
 
             <div class="column">
               <div class="row">Sábado</div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
+              {[...Array(24)].map((index) => (
+                <div key={index} className="row"></div>
+              ))}
             </div>
 
             <div class="column">
               <div class="row">Domingo</div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
+              {[...Array(24)].map((index) => (
+                <div key={index} className="row"></div>
+              ))}
             </div>
           </div>
 
-        <div className={`schedule Alexis ${alexisScheduleVisibility}`}>
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+        <div className={`schedule Alexis ${alexisScheduleVisibility}`}>  
+          <div class="column"> {/* Time */}
+            {[...Array(25)].map((index) => (
+                <div key={index} className="row"></div>
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Monday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Tuesday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Wednesday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Thursday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Friday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Saturday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Sunday */}
+            {[...Array(25)].map((_, index) => (
+              ((19 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
         </div>
 
         <div className={`schedule Farge ${fargeScheduleVisibility}`}>
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+          <div class="column"> {/* Time */}
+            {[...Array(25)].map((index) => (
+                <div key={index} className="row"></div>
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Monday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Tuesday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Wednesday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Thursday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Friday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Saturday */}
+            {[...Array(25)].map((_, index) => (
+              (0 < index && index <= 24) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Sunday */}
+            {[...Array(25)].map((_, index) => (
+              (0 < index && index <= 24) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
         </div>
 
         <div className={`schedule Mapache ${mapacheScheduleVisibility}`}>
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+          <div class="column"> {/* Time */}
+            {[...Array(25)].map((index) => (
+                <div key={index} className="row"></div>
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Monday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Tuesday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Wednesday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Thursday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Friday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+          <div class="column"> {/* Saturday */}
+            {[...Array(25)].map((_, index) => (
+              (0 < index && index <= 4) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+          <div class="column"> {/* Sunday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 <= index && index <= 24)) ? (<div key={index} className="row"></div>) : (<div key={index} className="row free"></div>)
+            ))}
           </div>
         </div>
 
-        <div className={`schedule Portal ${portalScheduleVisibility}`}>
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+        <div className={`schedule Portal ${portalScheduleVisibility}`}>  
+          <div class="column"> {/* Time */}
+            {[...Array(25)].map((index) => (
+                <div key={index} className="row"></div>
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Monday */}
+            {[...Array(25)].map((_, index) => (
+              ((3 < index && index <= 6) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+          <div class="column"> {/* Tuesday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
+          <div class="column"> {/* Wednesday */}
+            {[...Array(25)].map((_, index) => (
+              ((3 < index && index <= 6) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+          <div class="column"> {/* Thursday */}
+            {[...Array(25)].map((_, index) => (
+              ((0 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+          <div class="column"> {/* Friday */}
+            {[...Array(25)].map((_, index) => (
+              ((3 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+          <div class="column"> {/* Saturday */}
+            {[...Array(25)].map((_, index) => (
+              ((3 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
 
-          <div class="column">
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row free"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
-            <div class="row"></div>
+          <div class="column"> {/* Sunday */}
+            {[...Array(25)].map((_, index) => (
+              ((3 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
+            ))}
           </div>
         </div>
       </div>
