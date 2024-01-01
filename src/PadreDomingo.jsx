@@ -17,6 +17,7 @@ export const PadreDomingo = () => {
         <Route path='/reglamento' element={<Lineamentos />}/>
         <Route path='/decalogo' element={<Lineamentos />}/>
         <Route path='/reglas' element={<Lineamentos />}/>
+        <Route path='/constitucion' element={<Lineamentos />}/>
         <Route path='/horario' element={<Horario />}/>
         <Route path='/ppt' element={<PPT />}/>
         <Route path='/juegos' element={<Juegos />}/>

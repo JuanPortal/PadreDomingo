@@ -38,31 +38,6 @@ export const Horario = () => {
     }
   }
 
-  // TESTING
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-
-
-
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  // TESTING
-
   return (
     <section className='horario'>
       <h2>Horario</h2>
