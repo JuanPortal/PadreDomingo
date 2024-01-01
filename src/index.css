@@ -149,7 +149,7 @@ h2 {
 }
 
 .home .members {
-    margin-top: 50px;
+    margin: 50px 0;
     width: 70%;
     display: flex;
     flex-direction: column;
