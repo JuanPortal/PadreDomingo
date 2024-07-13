@@ -30,7 +30,7 @@ export const Header = () => {
                 <h1>Padre Domingo</h1>
             </Link>
             <nav className={`links ${hamburgerVisibility}`}>
-                <Link onClick={handleLinkClick} className={`link ${location.pathname === '/' ? 'active-link' : ''}`} to='/'>Home</Link>
+                <Link onClick={handleLinkClick} className={`link ${location.pathname === '/' ? 'active-link' : ''}`} to='/'>Inicio</Link>
                 <Link onClick={handleLinkClick} className={`link ${location.pathname === '/lineamentos' ? 'active-link' : ''}`} to='/lineamentos'>Lineamentos</Link>
                 <Link onClick={handleLinkClick} className={`link ${location.pathname === '/horario' ? 'active-link' : ''}`} to='/horario'>Horario</Link>
                 <Link onClick={handleLinkClick} className={`link ${location.pathname === '/ppt' ? 'active-link' : ''}`} to='/ppt'>PPT</Link>

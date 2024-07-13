@@ -1,6 +1,6 @@
 import React from 'react'
 import { Header } from './Header'
-import { Home } from './Home'
+import { Inicio } from './Inicio'
 import { Lineamentos } from './Lineamentos'
 import { Horario } from './Horario'
 import { PPT } from './PPT'
@@ -12,7 +12,7 @@ export const PadreDomingo = () => {
     <>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />}/>
+        <Route path='/' element={<Inicio />}/>
         <Route path='/lineamentos' element={<Lineamentos />}/>
         <Route path='/reglamento' element={<Lineamentos />}/>
         <Route path='/decalogo' element={<Lineamentos />}/>

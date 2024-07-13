@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const Home = () => {
+export const Inicio = () => {
   return (
-    <section className='home'>
+    <section className='inicio'>
         <div className='members'>
           <div className='member'> {/* Alexis */}
             <div className="member-title">
@@ -12,9 +12,9 @@ export const Home = () => {
             <div className="member-description">
               <img src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Alexis%200.png?alt=media&token=4e3c44b3-f4f5-4e8d-8aa1-c6175fcc9a05" alt="foto del zonzo" title="foto del zonzo" />
                 <ul>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>  {/* Farge */}
+                  <li>Lorem ipsum dolor sit amet</li>  {/* Mapache */}
+                  <li>Se tira la pera y le roban</li>  {/* Portal */}
                 </ul>
             </div>
           </div>
@@ -26,9 +26,9 @@ export const Home = () => {
             <div className="member-description">
               <img src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Farge%200.jpg?alt=media&token=ee58c62f-3cc3-4b5a-bcd1-b1c59f23f1e8" alt="foto del zonzo" title="foto del zonzo" />
                 <ul>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Le va bien en su chamba... la empresa quiebra</li>  {/* Alexis */}
+                  <li>Lorem ipsum dolor sit amet</li>  {/* Mapache */}
+                  <li>Le robaron 3 celulares en un año por adicto</li>  {/* Portal */}
                 </ul>
             </div>
           </div>
@@ -40,9 +40,9 @@ export const Home = () => {
             <div className="member-description">
               <img src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Mapache%200.png?alt=media&token=41b5be21-de33-4665-bf43-e09c634c6460" alt="foto del zonzo" title="foto del zonzo" />
                 <ul>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Su fla le invita a comer... él paga</li>  {/* Alexis */}
+                  <li>Lorem ipsum dolor sit amet</li>  {/* Farge */}
+                  <li>No hay más ciego que quien no quiere ver</li>  {/* Portal */}
                 </ul>
             </div>
           </div>
@@ -54,9 +54,9 @@ export const Home = () => {
             <div className="member-description">
               <img src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Portal%200.jpg?alt=media&token=1526f3d1-e3ef-469c-a149-fc93249dbccc" alt="foto del zonzo" title="foto del zonzo" /> 
                 <ul>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Su "saliente" no le contesta... se kcha a una gordita</li>  {/* Alexis */}
+                  <li>Lorem ipsum dolor sit amet</li>  {/* Farge */}
+                  <li>Lorem ipsum dolor sit amet</li>  {/* Mapache */}
                 </ul>
             </div>
           </div>
