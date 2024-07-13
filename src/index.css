@@ -161,6 +161,19 @@ h2 {
     gap: 10px;
 }
 
+.inicio .members .member .member-title h3 img {
+    width: 20px;
+    height: 20px;
+}
+
+.inicio .members .member:nth-child(2n + 1) .member-title h3 img {
+    margin-right: 10px;
+}
+
+.inicio .members .member:nth-child(2n + 2) .member-title h3 img {
+    margin-left: 10px;
+}
+
 .inicio .members .member .member-description {
     display: flex;
     gap: 20px;

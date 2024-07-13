@@ -42,99 +42,99 @@ export const Horario = () => {
     <section className='horario'>
       <h2>Horario</h2>
 
-      <div class="filters">
-        <div class="person">
+      <div className="filters">
+        <div className="person">
           <input onClick={handleAlexisScheduleVisibility} id="box-Alexis" type="checkbox" defaultChecked></input>
-          <label for="box-Alexis">Alexis</label>
+          <label htmlFor="box-Alexis">Alexis</label>
         </div>
-        <div class="person">
+        <div className="person">
           <input onClick={handleFargeScheduleVisibility} id="box-Farge" type="checkbox" defaultChecked></input>
-          <label for="box-Farge">Farge</label>
+          <label htmlFor="box-Farge">Farge</label>
         </div>
-        <div class="person">
+        <div className="person">
           <input onClick={handleMapacheScheduleVisibility} id="box-Mapache" type="checkbox" defaultChecked></input>
-          <label for="box-Mapache">Mapache</label>
+          <label htmlFor="box-Mapache">Mapache</label>
         </div>
-        <div class="person">
+        <div className="person">
           <input onClick={handlePortalScheduleVisibility} id="box-Portal" type="checkbox" defaultChecked></input>
-          <label for="box-Portal">Portal</label>
+          <label htmlFor="box-Portal">Portal</label>
         </div>
       </div>
 
-      <div class="schedules">
-        <div class="schedule"> {/* Template */}
-            <div class="column">
-              <div class="row">Horas</div>
-              <div class="row">00 - 01</div>
-              <div class="row">01 - 02</div>
-              <div class="row">02 - 03</div>
-              <div class="row">03 - 04</div>
-              <div class="row">04 - 05</div>
-              <div class="row">05 - 06</div>
-              <div class="row">06 - 07</div>
-              <div class="row">07 - 08</div>
-              <div class="row">08 - 09</div>
-              <div class="row">09 - 10</div>
-              <div class="row">10 - 11</div>
-              <div class="row">11 - 12</div>
-              <div class="row">12 - 13</div>
-              <div class="row">13 - 14</div>
-              <div class="row">14 - 15</div>
-              <div class="row">15 - 16</div>
-              <div class="row">16 - 17</div>
-              <div class="row">17 - 18</div>
-              <div class="row">18 - 19</div>
-              <div class="row">19 - 20</div>
-              <div class="row">20 - 21</div>
-              <div class="row">21 - 22</div>
-              <div class="row">22 - 23</div>
-              <div class="row">23 - 24</div>
+      <div className="schedules">
+        <div className="schedule"> {/* Template */}
+            <div className="column">
+              <div className="row">Horas</div>
+              <div className="row">00 - 01</div>
+              <div className="row">01 - 02</div>
+              <div className="row">02 - 03</div>
+              <div className="row">03 - 04</div>
+              <div className="row">04 - 05</div>
+              <div className="row">05 - 06</div>
+              <div className="row">06 - 07</div>
+              <div className="row">07 - 08</div>
+              <div className="row">08 - 09</div>
+              <div className="row">09 - 10</div>
+              <div className="row">10 - 11</div>
+              <div className="row">11 - 12</div>
+              <div className="row">12 - 13</div>
+              <div className="row">13 - 14</div>
+              <div className="row">14 - 15</div>
+              <div className="row">15 - 16</div>
+              <div className="row">16 - 17</div>
+              <div className="row">17 - 18</div>
+              <div className="row">18 - 19</div>
+              <div className="row">19 - 20</div>
+              <div className="row">20 - 21</div>
+              <div className="row">21 - 22</div>
+              <div className="row">22 - 23</div>
+              <div className="row">23 - 24</div>
             </div>
 
-            <div class="column">
-              <div class="row">Lunes</div>
+            <div className="column">
+              <div className="row">Lunes</div>
               {[...Array(24)].map((index) => (
                 <div key={index} className="row"></div>
               ))}
             </div>
 
-            <div class="column">
-              <div class="row">Martes</div>
+            <div className="column">
+              <div className="row">Martes</div>
               {[...Array(24)].map((index) => (
                 <div key={index} className="row"></div>
               ))}
             </div>
 
-            <div class="column">
-              <div class="row">Miércoles</div>
+            <div className="column">
+              <div className="row">Miércoles</div>
               {[...Array(24)].map((index) => (
                 <div key={index} className="row"></div>
               ))}
             </div>
 
-            <div class="column">
-              <div class="row">Jueves</div>
+            <div className="column">
+              <div className="row">Jueves</div>
               {[...Array(24)].map((index) => (
                 <div key={index} className="row"></div>
               ))}
             </div>
 
-            <div class="column">
-              <div class="row">Viernes</div>
+            <div className="column">
+              <div className="row">Viernes</div>
               {[...Array(24)].map((index) => (
                 <div key={index} className="row"></div>
               ))}
             </div>
 
-            <div class="column">
-              <div class="row">Sábado</div>
+            <div className="column">
+              <div className="row">Sábado</div>
               {[...Array(24)].map((index) => (
                 <div key={index} className="row"></div>
               ))}
             </div>
 
-            <div class="column">
-              <div class="row">Domingo</div>
+            <div className="column">
+              <div className="row">Domingo</div>
               {[...Array(24)].map((index) => (
                 <div key={index} className="row"></div>
               ))}
@@ -142,49 +142,49 @@ export const Horario = () => {
           </div>
 
         <div className={`schedule Alexis ${alexisScheduleVisibility}`}>  
-          <div class="column"> {/* Time */}
+          <div className="column"> {/* Time */}
             {[...Array(25)].map((index) => (
                 <div key={index} className="row"></div>
             ))}
           </div>
 
-          <div class="column"> {/* Monday */}
+          <div className="column"> {/* Monday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Tuesday */}
+          <div className="column"> {/* Tuesday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Wednesday */}
+          <div className="column"> {/* Wednesday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Thursday */}
+          <div className="column"> {/* Thursday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Friday */}
+          <div className="column"> {/* Friday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Saturday */}
+          <div className="column"> {/* Saturday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (10 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Sunday */}
+          <div className="column"> {/* Sunday */}
             {[...Array(25)].map((_, index) => (
               ((19 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
@@ -192,49 +192,49 @@ export const Horario = () => {
         </div>
 
         <div className={`schedule Farge ${fargeScheduleVisibility}`}>
-          <div class="column"> {/* Time */}
+          <div className="column"> {/* Time */}
             {[...Array(25)].map((index) => (
                 <div key={index} className="row"></div>
             ))}
           </div>
 
-          <div class="column"> {/* Monday */}
+          <div className="column"> {/* Monday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Tuesday */}
+          <div className="column"> {/* Tuesday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Wednesday */}
+          <div className="column"> {/* Wednesday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Thursday */}
+          <div className="column"> {/* Thursday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Friday */}
+          <div className="column"> {/* Friday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 2) || (22 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Saturday */}
+          <div className="column"> {/* Saturday */}
             {[...Array(25)].map((_, index) => (
               (0 < index && index <= 24) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Sunday */}
+          <div className="column"> {/* Sunday */}
             {[...Array(25)].map((_, index) => (
               (0 < index && index <= 24) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
@@ -242,49 +242,49 @@ export const Horario = () => {
         </div>
 
         <div className={`schedule Mapache ${mapacheScheduleVisibility}`}>
-          <div class="column"> {/* Time */}
+          <div className="column"> {/* Time */}
             {[...Array(25)].map((index) => (
                 <div key={index} className="row"></div>
             ))}
           </div>
 
-          <div class="column"> {/* Monday */}
+          <div className="column"> {/* Monday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Tuesday */}
+          <div className="column"> {/* Tuesday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Wednesday */}
+          <div className="column"> {/* Wednesday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Thursday */}
+          <div className="column"> {/* Thursday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Friday */}
+          <div className="column"> {/* Friday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 4) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Saturday */}
+          <div className="column"> {/* Saturday */}
             {[...Array(25)].map((_, index) => (
               (0 < index && index <= 4) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Sunday */}
+          <div className="column"> {/* Sunday */}
             {[...Array(25)].map((_, index) => (
               ((0 <= index && index <= 24)) ? (<div key={index} className="row"></div>) : (<div key={index} className="row free"></div>)
             ))}
@@ -292,49 +292,49 @@ export const Horario = () => {
         </div>
 
         <div className={`schedule Portal ${portalScheduleVisibility}`}>  
-          <div class="column"> {/* Time */}
+          <div className="column"> {/* Time */}
             {[...Array(25)].map((index) => (
                 <div key={index} className="row"></div>
             ))}
           </div>
 
-          <div class="column"> {/* Monday */}
+          <div className="column"> {/* Monday */}
             {[...Array(25)].map((_, index) => (
               ((3 < index && index <= 6) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Tuesday */}
+          <div className="column"> {/* Tuesday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Wednesday */}
+          <div className="column"> {/* Wednesday */}
             {[...Array(25)].map((_, index) => (
               ((3 < index && index <= 6) || (12 < index && index <= 24)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Thursday */}
+          <div className="column"> {/* Thursday */}
             {[...Array(25)].map((_, index) => (
               ((0 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Friday */}
+          <div className="column"> {/* Friday */}
             {[...Array(25)].map((_, index) => (
               ((3 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Saturday */}
+          <div className="column"> {/* Saturday */}
             {[...Array(25)].map((_, index) => (
               ((3 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
           </div>
 
-          <div class="column"> {/* Sunday */}
+          <div className="column"> {/* Sunday */}
             {[...Array(25)].map((_, index) => (
               ((3 < index && index <= 6) || (12 < index && index <= 18)) ? (<div key={index} className="row free"></div>) : (<div key={index} className="row"></div>)
             ))}
