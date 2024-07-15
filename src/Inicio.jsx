@@ -27,7 +27,7 @@ export const Inicio = () => {
               <img src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Farge%200.jpg?alt=media&token=ee58c62f-3cc3-4b5a-bcd1-b1c59f23f1e8" alt="foto del zonzo" title="foto del zonzo" />
                 <ul>
                   <li>Le va bien en su chamba... la empresa quiebra</li>  {/* Alexis */}
-                  <li>Lorem ipsum dolor sit amet</li>  {/* Mapache */}
+                  <li>Crea una empresa... Se le expropian</li>  {/* Mapache */}
                   <li>Le robaron 3 celulares en un año por adicto</li>  {/* Portal */}
                 </ul>
             </div>
