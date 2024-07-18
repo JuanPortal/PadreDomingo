@@ -12,8 +12,8 @@ export const Inicio = () => {
             <div className="member-description">
               <img src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Alexis%200.png?alt=media&token=4e3c44b3-f4f5-4e8d-8aa1-c6175fcc9a05" alt="foto del zonzo" title="foto del zonzo" />
                 <ul>
-                  <li>Lorem ipsum dolor sit amet</li>  {/* Farge */}
-                  <li>Lorem ipsum dolor sit amet</li>  {/* Mapache */}
+                  <li>Solo está comprometido con la marihuana</li>  {/* Farge */}
+                  <li>Le vacilan las flacas con mirada panorámica</li>  {/* Mapache */}
                   <li>Se tira la pera y le roban</li>  {/* Portal */}
                 </ul>
             </div>
@@ -27,7 +27,7 @@ export const Inicio = () => {
               <img src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Farge%200.jpg?alt=media&token=ee58c62f-3cc3-4b5a-bcd1-b1c59f23f1e8" alt="foto del zonzo" title="foto del zonzo" />
                 <ul>
                   <li>Le va bien en su chamba... la empresa quiebra</li>  {/* Alexis */}
-                  <li>Lorem ipsum dolor sit amet</li>  {/* Mapache */}
+                  <li>Crea una empresa... Se la expropian</li>  {/* Mapache */}
                   <li>Le robaron 3 celulares en un año por adicto</li>  {/* Portal */}
                 </ul>
             </div>
@@ -41,7 +41,7 @@ export const Inicio = () => {
               <img src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Mapache%200.png?alt=media&token=41b5be21-de33-4665-bf43-e09c634c6460" alt="foto del zonzo" title="foto del zonzo" />
                 <ul>
                   <li>Su fla le invita a comer... él paga</li>  {/* Alexis */}
-                  <li>Lorem ipsum dolor sit amet</li>  {/* Farge */}
+                  <li>"Más vale kchudo en mano que Palermo volando" D.S.</li>  {/* Farge */}
                   <li>No hay más ciego que quien no quiere ver</li>  {/* Portal */}
                 </ul>
             </div>
@@ -55,8 +55,8 @@ export const Inicio = () => {
               <img src="https://firebasestorage.googleapis.com/v0/b/padre-domingo.appspot.com/o/Portal%200.jpg?alt=media&token=1526f3d1-e3ef-469c-a149-fc93249dbccc" alt="foto del zonzo" title="foto del zonzo" /> 
                 <ul>
                   <li>Su "saliente" no le contesta... se kcha a una gordita</li>  {/* Alexis */}
-                  <li>Lorem ipsum dolor sit amet</li>  {/* Farge */}
-                  <li>Lorem ipsum dolor sit amet</li>  {/* Mapache */}
+                  <li>Degenerado y alcohólico? Obvio no tuvo viejo</li>  {/* Farge */}
+                  <li>Le sigue el juego a su causa, termina con la muñeca rota</li>  {/* Mapache */}
                 </ul>
             </div>
           </div>
