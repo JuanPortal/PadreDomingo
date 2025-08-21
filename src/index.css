@@ -117,7 +117,7 @@ h2 {
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .login form {
@@ -176,6 +176,7 @@ h2 {
 
 .inicio .members .member:nth-child(2n) .member-description {
     flex-direction: row-reverse;
+    text-align: end;
 }
 
 .inicio .members .member {

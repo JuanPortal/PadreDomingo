@@ -26,15 +26,15 @@ const [password, setPassword] = useState('');
     <section className='login'>
       {!isAuthenticated ? (
         <form onSubmit={handlePasswordSubmit}>
-          <label htmlFor="password">Enter Password:</label>
+          <label htmlFor="password">Ingresa contraseña</label>
           <input
             type="password"
             id="password"
             value={password}
-            placeholder='contrasena'
+            placeholder='contraseña'
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit">Submit</button>
+          {/* <button type="submit">Submit</button> */}
         </form>
       ) : (
         <>
