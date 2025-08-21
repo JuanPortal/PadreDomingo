@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Header } from './Header'
-import { Login } from './Login'
 import { Inicio } from './Inicio'
 import { Lineamentos } from './Lineamentos'
 import { Horario } from './Horario'
