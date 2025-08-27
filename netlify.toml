@@ -5,5 +5,3 @@
 [build.environment]
   NODE_VERSION = "18.20.3"
   NPM_VERSION = "9.9.2"
-  # optional if you hit peer-dep issues:
-  # NPM_FLAGS = "--legacy-peer-deps"
