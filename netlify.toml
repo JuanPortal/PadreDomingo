@@ -1,4 +1,6 @@
-[headers]
-  # Define MIME types for JavaScript files
-  Content-Type = "application/javascript"
+[[headers]]
+for = "/*"
+  [headers.values]
+  X-Frame-Options = "DENY"
   X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "no-referrer"
