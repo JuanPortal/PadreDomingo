@@ -16,7 +16,7 @@ export const PPT = () => {
     return (
         <section className='ppt'>
             <h2>PPT</h2>
-            <h3>Velada 1</h3>
+            <h3>Velada  1</h3>
             <ul>
                 <li>
                     <p>Alexis</p>
