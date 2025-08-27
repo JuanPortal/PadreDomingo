@@ -1,16 +1,16 @@
 import React from 'react'
 
 export const PPT = () => {
-    function handleDownload(member, number) {
-        const fileUrl = `./public/Velada ${number}/${member}.pptx`;
-        const fileName = `${member}.pptx`;
-        const anchor = document.createElement('a');
-        anchor.href = fileUrl;
-        anchor.download = fileName;
-        anchor.click();
-        anchor.remove();
-        console.log(`Downloaded:    assets/Velada ${number}/${member}.pptx`)
-    };
+    // function handleDownload(member, number) {
+    //     const fileUrl = `./public/Velada ${number}/${member}.pptx`;
+    //     const fileName = `${member}.pptx`;
+    //     const anchor = document.createElement('a');
+    //     anchor.href = fileUrl;
+    //     anchor.download = fileName;
+    //     anchor.click();
+    //     anchor.remove();
+    //     console.log(`Downloaded:    assets/Velada ${number}/${member}.pptx`)
+    // };
 
 
     return (
