@@ -32,7 +32,7 @@ export const PPT = () => {
             
             <div className="velada">
                 <h3>Velada 2</h3>
-                <h4>X X 2023</h4>
+                <h4>6 enero 2023</h4>
                 <ul>
                     <li>
                         <p>Alexis</p>
