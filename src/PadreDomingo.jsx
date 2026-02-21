@@ -14,10 +14,10 @@ const [password, setPassword] = useState('');
 
   const handlePasswordSubmit = (e) => {
     e.preventDefault();
-    if (password === 'mapachekchudo') {
+    if (password === 'mapacheyanoeskchudo') {
       setIsAuthenticated(true);
     } else {
-      alert('mongol');
+      alert('mongol. Farge pobre btw');
     }
   };
 
